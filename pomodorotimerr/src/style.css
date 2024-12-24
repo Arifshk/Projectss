@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    background: #111; /* Slightly lighter black for contrast */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Header */
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #ff4c4c; /* Vibrant red for the header */
+}
+
+header p {
+    font-size: 1em;
+    color: #aaa; /* Subtle grey for the description */
+}
+
+/* Timer */
+.timer {
+    font-size: 3em;
+    margin: 20px 0;
+    letter-spacing: 2px;
+    color: #00ff88; /* Neon green for the timer */
+}
+
+/* Buttons */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.controls .btn {
+    background: #222; /* Dark background for button */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* No initial glow */
+}
+
+/* Button Hover and Active States */
+.controls .btn:hover {
+    color: #000;
+    background: #ff4c4c; /* Red background on hover */
+    box-shadow: 0 0 15px #ff4c4c; /* Glowing effect */
+}
+
+.controls .btn:active {
+    box-shadow: 0 0 20px #ff4c4c, 0 0 30px #ff4c4c;
+    transform: scale(0.95);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #666; /* Subtle grey text */
+}
+
+footer a {
+    color: #00ff88; /* Neon green links */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
