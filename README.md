@@ -21,8 +21,3 @@ This Python-based project converts the text in a PDF file into speech, effective
 - PyPDF2
 - pyttsx3
 
-## How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/pdf-to-audiobook.git
-   cd pdf-to-audiobook
